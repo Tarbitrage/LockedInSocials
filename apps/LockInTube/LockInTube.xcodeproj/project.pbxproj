@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 56;
+    objects = {
+
+/* Begin PBXBuildFile section */
+        B2FD3163B58C0438A7563739 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9BFD564C309EEDD62B77E3 /* ContentView.swift */; };
+        7C568EAB5C4B26B1722796AF /* LockInTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D9936892C69F9FBA9D55AB /* LockInTubeApp.swift */; };
+        57B74C7079EC5DF48788BAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0192E5C915919E1111DCC2DD /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        6D9BFD564C309EEDD62B77E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+        46D9936892C69F9FBA9D55AB /* LockInTubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockInTubeApp.swift; sourceTree = "<group>"; };
+        0192E5C915919E1111DCC2DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        A9ED82EA0D79F98A184E1351 /* LockInTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockInTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        7FF35405B0CC4A9C38633CCE /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        B585D0E24C7AA33CF12897F9 = {
+            isa = PBXGroup;
+            children = (
+                FE48A14C06A6C5B9186026C3 /* LockInTube */,
+                DFFE902719FCEF02D798734B /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        FE48A14C06A6C5B9186026C3 /* LockInTube */ = {
+            isa = PBXGroup;
+            children = (
+                46D9936892C69F9FBA9D55AB /* LockInTubeApp.swift */,
+                6D9BFD564C309EEDD62B77E3 /* ContentView.swift */,
+                0192E5C915919E1111DCC2DD /* Assets.xcassets */,
+            );
+            path = LockInTube;
+            sourceTree = "<group>";
+        };
+        DFFE902719FCEF02D798734B /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                A9ED82EA0D79F98A184E1351 /* LockInTube.app */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        95B602670B682AE51FD2BAD9 /* LockInTube */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = 41A9CCCC5EB100BFDCEC92E1 /* Build configuration list for PBXNativeTarget "LockInTube" */;
+            buildPhases = (
+                2C49F9ACEB95DDD9AD0A8E7D /* Sources */,
+                7FF35405B0CC4A9C38633CCE /* Frameworks */,
+                03782FC31F57EF0EEF3B3F62 /* Resources */,
+            );
+            buildRules = ();
+            dependencies = ();
+            name = LockInTube;
+            productName = LockInTube;
+            productReference = A9ED82EA0D79F98A184E1351 /* LockInTube.app */;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        D94A3943338A69F0B72898A9 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                BuildIndependentTargetsInParallel = 1;
+                LastUpgradeCheck = 1600;
+                TargetAttributes = {
+                    95B602670B682AE51FD2BAD9 = {
+                        CreatedOnToolsVersion = 16.0;
+                    };
+                };
+            };
+            buildConfigurationList = D2929E9807A3AA5A5B0F8201 /* Build configuration list for PBXProject "LockInTube" */;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (en, Base);
+            mainGroup = B585D0E24C7AA33CF12897F9;
+            productRefGroup = DFFE902719FCEF02D798734B /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                95B602670B682AE51FD2BAD9 /* LockInTube */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        03782FC31F57EF0EEF3B3F62 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                57B74C7079EC5DF48788BAD3 /* Assets.xcassets in Resources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        2C49F9ACEB95DDD9AD0A8E7D /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                7C568EAB5C4B26B1722796AF /* LockInTubeApp.swift in Sources */,
+                B2FD3163B58C0438A7563739 /* ContentView.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        793BBB506EB3A6483FB839FD /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_MODULES = YES;
+                CODE_SIGN_STYLE = Automatic;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                ENABLE_TESTABILITY = YES;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = iphoneos;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                TARGETED_DEVICE_FAMILY = 1;
+            };
+            name = Debug;
+        };
+        FBAD478F3875B2AE55BD2459 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_MODULES = YES;
+                CODE_SIGN_STYLE = Automatic;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+                SDKROOT = iphoneos;
+                SWIFT_COMPILATION_MODE = wholemodule;
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+                TARGETED_DEVICE_FAMILY = 1;
+                VALIDATE_PRODUCT = YES;
+            };
+            name = Release;
+        };
+        BE1E91CA571B8E29107ED848 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                DEVELOPMENT_TEAM = "";
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_CFBundleDisplayName = "Lock In Tube";
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                MARKETING_VERSION = 0.1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = org.example.LockInTube;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SDKROOT = iphoneos;
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1;
+            };
+            name = Debug;
+        };
+        37B3B4BE7F2BDACC9E13A55A /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                DEVELOPMENT_TEAM = "";
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_CFBundleDisplayName = "Lock In Tube";
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                MARKETING_VERSION = 0.1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = org.example.LockInTube;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SDKROOT = iphoneos;
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1;
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        D2929E9807A3AA5A5B0F8201 /* Build configuration list for PBXProject "LockInTube" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                793BBB506EB3A6483FB839FD /* Debug */,
+                FBAD478F3875B2AE55BD2459 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        41A9CCCC5EB100BFDCEC92E1 /* Build configuration list for PBXNativeTarget "LockInTube" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                BE1E91CA571B8E29107ED848 /* Debug */,
+                37B3B4BE7F2BDACC9E13A55A /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = D94A3943338A69F0B72898A9 /* Project object */;
+}

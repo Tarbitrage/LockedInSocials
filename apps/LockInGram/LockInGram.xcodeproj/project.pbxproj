@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {
+    };
+    objectVersion = 56;
+    objects = {
+
+/* Begin PBXBuildFile section */
+        20FA0A8212DEA7D936A0C77B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5C9163D1E2912EFADEBCF1 /* ContentView.swift */; };
+        EECCA2FAB013FC76D26B03F8 /* LockInGramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE05C7E84A7588C96306769 /* LockInGramApp.swift */; };
+        B9474EAEBE96718424E1BE2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C6CABC51F7BADB49CC1617 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        4F5C9163D1E2912EFADEBCF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+        9CE05C7E84A7588C96306769 /* LockInGramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockInGramApp.swift; sourceTree = "<group>"; };
+        17C6CABC51F7BADB49CC1617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+        6B122339C4A1B0C89D9BB7B6 /* LockInGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockInGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        70FB283529E695F438EFD210 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = ();
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        E2167376E8BFD501EEB8DC2A = {
+            isa = PBXGroup;
+            children = (
+                436C56C642C8F6D75CBACC3A /* LockInGram */,
+                7EF366C135A3004FBE2E10B9 /* Products */,
+            );
+            sourceTree = "<group>";
+        };
+        436C56C642C8F6D75CBACC3A /* LockInGram */ = {
+            isa = PBXGroup;
+            children = (
+                9CE05C7E84A7588C96306769 /* LockInGramApp.swift */,
+                4F5C9163D1E2912EFADEBCF1 /* ContentView.swift */,
+                17C6CABC51F7BADB49CC1617 /* Assets.xcassets */,
+            );
+            path = LockInGram;
+            sourceTree = "<group>";
+        };
+        7EF366C135A3004FBE2E10B9 /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                6B122339C4A1B0C89D9BB7B6 /* LockInGram.app */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        98CA9CE368360BD853096BF5 /* LockInGram */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = ABB9EB5B46201AA036DF953A /* Build configuration list for PBXNativeTarget "LockInGram" */;
+            buildPhases = (
+                B9BB49E14803C73A74CA1166 /* Sources */,
+                70FB283529E695F438EFD210 /* Frameworks */,
+                AEBC6D3FB5D254B5CBAD46EB /* Resources */,
+            );
+            buildRules = ();
+            dependencies = ();
+            name = LockInGram;
+            productName = LockInGram;
+            productReference = 6B122339C4A1B0C89D9BB7B6 /* LockInGram.app */;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        ECD362D6BA349DDC887CB566 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                BuildIndependentTargetsInParallel = 1;
+                LastUpgradeCheck = 1600;
+                TargetAttributes = {
+                    98CA9CE368360BD853096BF5 = {
+                        CreatedOnToolsVersion = 16.0;
+                    };
+                };
+            };
+            buildConfigurationList = B18466FE98213424D0AFB197 /* Build configuration list for PBXProject "LockInGram" */;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (en, Base);
+            mainGroup = E2167376E8BFD501EEB8DC2A;
+            productRefGroup = 7EF366C135A3004FBE2E10B9 /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                98CA9CE368360BD853096BF5 /* LockInGram */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        AEBC6D3FB5D254B5CBAD46EB /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                B9474EAEBE96718424E1BE2C /* Assets.xcassets in Resources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        B9BB49E14803C73A74CA1166 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                EECCA2FAB013FC76D26B03F8 /* LockInGramApp.swift in Sources */,
+                20FA0A8212DEA7D936A0C77B /* ContentView.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        65CF46751D1C9A5AE7AD380A /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_MODULES = YES;
+                CODE_SIGN_STYLE = Automatic;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                ENABLE_TESTABILITY = YES;
+                GCC_OPTIMIZATION_LEVEL = 0;
+                IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = iphoneos;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                TARGETED_DEVICE_FAMILY = 1;
+            };
+            name = Debug;
+        };
+        0C7162A8F927785A56B72E3F /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                CLANG_ENABLE_MODULES = YES;
+                CODE_SIGN_STYLE = Automatic;
+                DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+                IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+                SDKROOT = iphoneos;
+                SWIFT_COMPILATION_MODE = wholemodule;
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+                TARGETED_DEVICE_FAMILY = 1;
+                VALIDATE_PRODUCT = YES;
+            };
+            name = Release;
+        };
+        FB10C3515E1C486DAEA113D6 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                DEVELOPMENT_TEAM = "";
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_CFBundleDisplayName = "Lock In Gram";
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                MARKETING_VERSION = 0.1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = org.example.LockInGram;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SDKROOT = iphoneos;
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1;
+            };
+            name = Debug;
+        };
+        8CAFDD81086BE57DE320B02E /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                DEVELOPMENT_TEAM = "";
+                GENERATE_INFOPLIST_FILE = YES;
+                INFOPLIST_KEY_CFBundleDisplayName = "Lock In Gram";
+                INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+                INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+                IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+                LD_RUNPATH_SEARCH_PATHS = (
+                    "$(inherited)",
+                    "@executable_path/Frameworks",
+                );
+                MARKETING_VERSION = 0.1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = org.example.LockInGram;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SDKROOT = iphoneos;
+                SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                SWIFT_VERSION = 5.0;
+                TARGETED_DEVICE_FAMILY = 1;
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        B18466FE98213424D0AFB197 /* Build configuration list for PBXProject "LockInGram" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                65CF46751D1C9A5AE7AD380A /* Debug */,
+                0C7162A8F927785A56B72E3F /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        ABB9EB5B46201AA036DF953A /* Build configuration list for PBXNativeTarget "LockInGram" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                FB10C3515E1C486DAEA113D6 /* Debug */,
+                8CAFDD81086BE57DE320B02E /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+    };
+    rootObject = ECD362D6BA349DDC887CB566 /* Project object */;
+}

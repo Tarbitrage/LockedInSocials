@@ -1,0 +1,39 @@
+# Xcode user-specific state, local caches, and build products
+.DS_Store
+**/xcuserdata/
+**/*.xcuserstate
+**/.build/
+DerivedData/
+**/DerivedData/
+build/
+**/build/
+*.xcactivitylog
+*.hmap
+*.xccheckout
+*.xcscmblueprint
+
+# Build artifacts and device-specific exports
+*.app/
+*.ipa
+*.dSYM/
+*.dSYM.zip
+*.xcarchive/
+
+# Signing credentials, local secrets, and environment settings
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.pem
+*.pfx
+*.key
+*.cer
+.env
+.env.*
+!*.env.example
+
+# Editor and Python temporary files
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
